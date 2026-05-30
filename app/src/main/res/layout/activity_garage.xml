@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GarageActivity"
+    android:gravity="center"
+    android:background="#c1121f"
+    android:id="@+id/main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/goToMain"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top|right"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginVertical="10sp"
+            android:backgroundTint="#e9d8a6"
+            android:text="x"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e9d8a6"
+        android:text="My garage"
+        android:layout_marginVertical="20sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e9d8a6"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/tvUsersList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#e9d8a6"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1121f"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <ImageButton
+            android:id="@+id/goToLogin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top|right"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginVertical="10sp"
+            android:background="@drawable/profile_button_background"
+            android:contentDescription="Profile"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_profile" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:layout_marginVertical="14sp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome!"
+            android:textColor="#e9d8a6"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:id="@+id/layoutCreateAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".SignUpActivity">
+
+            <Button
+                android:id="@+id/createNewCarBtn"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="10sp"
+                android:backgroundTint="#e9d8a6"
+                android:text="create new car"
+                android:textColor="#780000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/myGarageBtn"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="10sp"
+                android:backgroundTint="#e9d8a6"
+                android:text="my garage"
+                android:textColor="#780000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/popularBtn"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginVertical="10sp"
+                android:backgroundTint="#e9d8a6"
+                android:text="popular"
+                android:textColor="#780000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:id="@+id/nextRaceCard"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/next_race_card_background"
+                android:gravity="center"
+                android:minHeight="250dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/nextRaceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="next race"
+                    android:textColor="#780000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/nextRacePlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="loading..."
+                    android:textColor="#780000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tillStartText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="till start"
+                    android:textColor="#780000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/countdownText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="loading..."
+                    android:textColor="#780000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/remindRaceBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:backgroundTint="#780000"
+                    android:minHeight="48dp"
+                    android:text="remind me 1h before"
+                    android:textColor="#e9d8a6"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1121f"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CreateCarActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/goToMain"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top|right"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginVertical="10sp"
+            android:backgroundTint="#e9d8a6"
+            android:text="x"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new car"
+        android:textColor="#e9d8a6"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_marginVertical="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutCreateCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50sp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".CreateCarActivity">
+
+
+        <EditText
+            android:id="@+id/nameEdtTxt"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20sp"
+            android:backgroundTint="#e9d8a6"
+            android:hint="Name"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+        <Spinner
+            android:id="@+id/teamSpinner"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20sp"
+            android:backgroundTint="#e9d8a6"
+            android:text="my garage"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/engineSpinner"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20sp"
+            android:backgroundTint="#e9d8a6"
+            android:text="encyclopedia"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20sp"
+            android:backgroundTint="#e9d8a6"
+            android:text="create"
+            android:textColor="#780000"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

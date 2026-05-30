@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "393167623593",
+    "firebase_url": "https://fir-test-1f7be-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-test-1f7be",
+    "storage_bucket": "fir-test-1f7be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393167623593:android:b8fd9240325bef9ee620b8",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT2hbOsRTFAU6jarItHMN_8oF_fSqAESU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

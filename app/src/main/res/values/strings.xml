@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">fireBaseTest</string>
+    <string-array name="teams_array">
+        <item>Team</item>
+        <item>McLaren</item>
+        <item>Scuderia Ferrari</item>
+        <item>Red Bull Racing</item>
+        <item>Mercedes</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Haas</item>
+        <item>Alpine</item>
+        <item>Racing Bulls</item>
+        <item>Williams</item>
+    </string-array>
+    <string-array name="engines_array">
+        <item>Engine</item>
+        <item>V12</item>
+        <item>V10</item>
+        <item>V8</item>
+        <item>V6</item>
+    </string-array>
+</resources>
