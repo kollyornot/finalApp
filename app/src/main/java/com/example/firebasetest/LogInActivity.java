@@ -137,7 +137,6 @@ public class LogInActivity extends AppCompatActivity {
                         layoutLogout.setVisibility(View.VISIBLE);
                         layoutSignup.setVisibility(View.GONE);
                         txtStatus.setText("Hello, " + name);
-                        txtStatus.setTextColor(Color.GREEN);
 
                     }
                 });

@@ -22,10 +22,6 @@
         android:textColor="#780000"
         android:textSize="29sp" />
 
-    <View
-        android:layout_width="1dp"
-        android:layout_height="0.8dp"
-        android:layout_weight="1"/>
 
     <TextView
         android:id="@+id/txtGreeting"

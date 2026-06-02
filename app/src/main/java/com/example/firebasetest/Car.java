@@ -1,6 +1,5 @@
 package com.example.firebasetest;
 import com.google.firebase.database.IgnoreExtraProperties;
-
 @IgnoreExtraProperties
 public class Car {
     public String carid;
@@ -11,6 +10,7 @@ public class Car {
     public int imageResId;
     public boolean published;
     public int likesCount;
+
 
 
     public Car(){}

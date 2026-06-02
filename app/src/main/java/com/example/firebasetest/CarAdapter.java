@@ -20,6 +20,7 @@ public class CarAdapter extends ArrayAdapter<Car> {
     private boolean showPublishButton = false;
     private boolean showDeleteButton = false;
     private boolean showLikeButton = false;
+    private boolean showCreatorName = false;
     private OnCarActionListener publishListener;
     private OnCarActionListener deleteListener;
     private OnCarActionListener likeListener;
@@ -41,7 +42,6 @@ public class CarAdapter extends ArrayAdapter<Car> {
     public void setShowLikeButton(boolean showLikeButton) {
         this.showLikeButton = showLikeButton;
     }
-
     public void setShowDeleteButton(boolean showDeleteButton) {
         this.showDeleteButton = showDeleteButton;
     }

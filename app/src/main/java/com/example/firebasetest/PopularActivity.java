@@ -93,6 +93,7 @@ public class PopularActivity extends AppCompatActivity {
         publicCarsRef.addValueEventListener(publicCarsListener);
     }
 
+
     private void toggleLike(Car car) {
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentUser == null) {

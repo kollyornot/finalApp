@@ -77,23 +77,9 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     private void updateUI() {
-            addUserDetails();
-            Intent intent = new Intent(SignUpActivity.this, LogInActivity.class);
+            Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
 
-    }
-
-    private void addUserDetails(){
-        String name = edtName.getText().toString().trim();
-        String email = edtEmail.getText().toString().trim();
-        String uid = mAuth.getCurrentUser().getUid().toString();
-
-        User u = new User(uid, email, name);
-        Log.d("CheckOnComplete", u.uid);
-        DatabaseReference userRef = firebaseDatabase.getReference("users").child(uid);
-        u.key = userRef.getKey();
-        Log.d("CheckOnComplete", u.key);
-        userRef.setValue(u);
     }
 }

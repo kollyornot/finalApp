@@ -13,6 +13,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Base64;
+import android.util.Log;
 import android.widget.Toast;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -236,6 +237,7 @@ public class MainActivity extends AppCompatActivity {
                 countdownText.setText("Try again later");
                 remindRaceBtn.setEnabled(false);
                 Toast.makeText(MainActivity.this, error, Toast.LENGTH_SHORT).show();
+                Log.d("fail countdown", error);
             }
         });
     }

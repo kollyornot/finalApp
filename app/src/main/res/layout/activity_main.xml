@@ -58,7 +58,7 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="10sp"
                 android:backgroundTint="#e9d8a6"
-                android:text="create new car"
+                android:text="Create new car"
                 android:textColor="#780000"
                 android:textSize="30sp" />
 
@@ -68,7 +68,7 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="10sp"
                 android:backgroundTint="#e9d8a6"
-                android:text="my garage"
+                android:text="My garage"
                 android:textColor="#780000"
                 android:textSize="30sp" />
 
@@ -78,7 +78,7 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="10sp"
                 android:backgroundTint="#e9d8a6"
-                android:text="popular"
+                android:text="Popular"
                 android:textColor="#780000"
                 android:textSize="30sp" />
 
@@ -97,7 +97,7 @@
                     android:id="@+id/nextRaceTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="next race"
+                    android:text="Next race:"
                     android:textColor="#780000"
                     android:textSize="24sp" />
 
@@ -107,7 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:gravity="center"
-                    android:text="loading..."
+                    android:text="Loading..."
                     android:textColor="#780000"
                     android:textSize="20sp" />
 
@@ -116,7 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:text="till start"
+                    android:text="Till start:"
                     android:textColor="#780000"
                     android:textSize="18sp" />
 
@@ -126,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:gravity="center"
-                    android:text="loading..."
+                    android:text="Loading..."
                     android:textColor="#780000"
                     android:textSize="20sp" />
 
@@ -137,7 +137,7 @@
                     android:layout_marginTop="14dp"
                     android:backgroundTint="#780000"
                     android:minHeight="48dp"
-                    android:text="remind me 1h before"
+                    android:text="Remind me 1h before"
                     android:textColor="#e9d8a6"
                     android:textSize="14sp" />
 

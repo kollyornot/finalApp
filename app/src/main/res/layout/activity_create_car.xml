@@ -94,7 +94,7 @@
             android:layout_height="60dp"
             android:layout_marginVertical="20sp"
             android:backgroundTint="#e9d8a6"
-            android:text="create"
+            android:text="Create"
             android:textColor="#780000"
             android:textSize="30sp" />
 
